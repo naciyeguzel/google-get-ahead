@@ -273,17 +273,7 @@ public class TreeTest {
 		
 		Tree tree = new Tree(5, children5);
 		assertEquals(4, (int) tree.longestPath());
-	}
-	
-	@Test
-	public void test8() {
-		//		5
-		
-		List<Tree> children5 = new LinkedList<Tree>();
-		
-		Tree tree = new Tree(5, children5);
-		assertEquals(1, (int) tree.longestPath());
-	}
+	}	
 	
 	@Test
 	public void test13() {
