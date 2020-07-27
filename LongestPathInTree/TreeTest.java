@@ -161,6 +161,7 @@ public class TreeTest {
 		assertEquals(1, (int) tree.longestPath());
 	}
 	
+	@Test
 	public void test6() {
 		//							5
 		//					6		7		20
@@ -228,6 +229,7 @@ public class TreeTest {
 		assertEquals(6, (int) tree.longestPath());
 	}
 	
+	@Test
 	public void test7() {
 		//							5
 		//					6		7		20
